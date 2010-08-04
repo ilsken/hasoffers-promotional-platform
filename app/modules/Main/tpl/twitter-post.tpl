@@ -16,7 +16,7 @@
 	<span id="checkyes" style="display: none;color: #009966;">passwords match</span><span id="checkno" style="display: none;color:#990000;">passwords don't match</span></p>
 
 <p>Confirm your Tweet below:</p>
-<textarea name="status" class="textboxbig"><?=$status;?></textarea> 
+<textarea name="status" class="textboxbig" maxlength="140"><?=$status;?></textarea> 
 
 <p><a href="#" onclick="validate();"><img src="/images/button-tweet.gif" border="0" alt="Tweet This"/></a></p>
 	
