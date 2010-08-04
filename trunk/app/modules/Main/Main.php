@@ -449,18 +449,25 @@ class Main extends Templator {
 
 		$this->title = "Tweet This";
 
-		if($_REQUEST['message']) {
+		if( isset($_REQUEST['message']) ) 
 			$status = $_REQUEST['message'];
-		}
+		else if( isset($_REQUEST['status']) ) 
+			$status = $_REQUEST['status'];
+		else
+			$status = "";
 
-		$username= "";
-		$sent= "";
-		if ( isset($_POST['status']) && isset($_POST['username']) && isset($_POST['password']) ) {
-		
-			$username = $_POST['username'];
-			$password = $_POST['password'];
-			$status = $_POST['status'];
+		if( isset($_REQUEST['username']) ) 
+			$username = $_REQUEST['username'];
+		else
+			$username= "";
 			
+		if( isset($_REQUEST['password']) ) 
+			$password = $_REQUEST['password'];
+		else
+			$password= "";			
+			
+		$sent = null;
+		if ( !empty($status) && !empty($username) && !empty($password) ) {	
 			$tweetUrl = 'http://www.twitter.com/statuses/update.xml';
 
 			$curl = curl_init();
@@ -476,19 +483,18 @@ class Main extends Templator {
 
 			if ($resultArray['http_code'] == 200) {
 				curl_close($curl);
-				$sent="success";
+				$sent = true;
 			}else{
 				curl_close($curl);
-				$sent="fail";
+				$sent = false;
 			}
 
 		}
-		
-		$this->setTemplate( 'blank' );	
 
 		$this->display($this->getTpl('twitter-post', array(
 			'user' => $user,
 			'username' => $username,
+			'password' => $password,
 			'sent' => $sent,
 			'status' => $status
 		)));
