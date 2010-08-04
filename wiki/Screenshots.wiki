@@ -7,32 +7,42 @@ Add your content here.
 
 = Details =
 
-Affiliate Home
+*Affiliate Home*
+
 [http://cdn.go2media.org/assets/hasoffers/images/hasoffers-promotional-platform-home.jpg http://cdn.go2media.org/assets/hasoffers/images/hasoffers-promotional-platform-home-s.jpg]
 
-Display Banners
+*Display Banners*
+
 [http://cdn.go2media.org/assets/hasoffers/images/hasoffers-promotional-platform-banners.jpg http://cdn.go2media.org/assets/hasoffers/images/hasoffers-promotional-platform-banners-s.jpg]
 
-Send via Email
+*Send via Email*
+
 [http://cdn.go2media.org/assets/hasoffers/images/hasoffers-promotional-platform-email.jpg http://cdn.go2media.org/assets/hasoffers/images/hasoffers-promotional-platform-email-s.jpg]
 
-Share on Facebook
+*Share on Facebook*
+
 [http://cdn.go2media.org/assets/hasoffers/images/hasoffers-promotional-platform-facebook.jpg http://cdn.go2media.org/assets/hasoffers/images/hasoffers-promotional-platform-facebook-s.jpg]
 
-Post on Linked In
+*Post on Linked In*
+
 [http://cdn.go2media.org/assets/hasoffers/images/hasoffers-promotional-platform-linkedin.jpg http://cdn.go2media.org/assets/hasoffers/images/hasoffers-promotional-platform-linkedin-s.jpg]
 
-Tweet on Twitter
+*Tweet on Twitter*
+
 [http://cdn.go2media.org/assets/hasoffers/images/hasoffers-promotional-platform-twitter.jpg http://cdn.go2media.org/assets/hasoffers/images/hasoffers-promotional-platform-twitter-s.jpg]
 
-Earnings Report
+*Earnings Report*
+
 [http://cdn.go2media.org/assets/hasoffers/images/hasoffers-promotional-platform-earnings.jpg http://cdn.go2media.org/assets/hasoffers/images/hasoffers-promotional-platform-earnings-s.jpg]
 
-Refer a Friend
+*Refer a Friend*
+
 [http://cdn.go2media.org/assets/hasoffers/images/hasoffers-promotional-platform-refer.jpg http://cdn.go2media.org/assets/hasoffers/images/hasoffers-promotional-platform-refer-s.jpg]
 
-Affiliate Login
+*Affiliate Login*
+
 [http://cdn.go2media.org/assets/hasoffers/images/hasoffers-promotional-platform-login.jpg http://cdn.go2media.org/assets/hasoffers/images/hasoffers-promotional-platform-login-s.jpg]
 
-Affiliate Signup
+*Affiliate Signup*
+
 [http://cdn.go2media.org/assets/hasoffers/images/hasoffers-promotional-platform-signup.jpg http://cdn.go2media.org/assets/hasoffers/images/hasoffers-promotional-platform-signup-s.jpg]
