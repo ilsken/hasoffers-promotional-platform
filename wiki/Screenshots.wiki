@@ -1,4 +1,4 @@
-Below you'll find screenshots of the Promotional Platform implementation for the HasOffers affiliates. You will have complete access to update the UI and modify the functionality to meet your business requirements.
+Below you'll find screenshots of the Promotional Platform implementation for the HasOffers affiliates located at [http://affiliates.hasoffers.com affiliates.hasoffers.com]. You will have complete access to update the UI and modify the functionality to meet your business requirements.
 
 =Affiliate Home=
 
