@@ -23,7 +23,7 @@
 <?php else: ?>
 	<form method="POST" action="/twitterpost"id="tweet0">
 		<p>
-			<textarea name="message" class="textboxbig"><?=$tracking['click_url'];?></textarea> 
+			<textarea name="message" class="textboxbig" maxlength="140"><?=$tracking['click_url'];?></textarea> 
 			<a href="#" onclick="$('#tweet0').submit();" name="twitter_share"><img src="/images/button-tweet.gif" alt="Tweet This"/></a>
 		</p>
 	</form>
