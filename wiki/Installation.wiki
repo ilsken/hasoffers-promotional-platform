@@ -12,7 +12,10 @@ Follow the steps below to setup the HasOffers Promotional Platform on your serve
 
 =Installation=
 
-  # Obtain the latest version of the HasOffers Promotional Platform, and install to target directory on your server.
+ Obtain the latest version of the HasOffers Promotional Platform, and install to target directory on your server.
+
+You may do this one of two ways:
+
   ## [http://code.google.com/p/hasoffers-promotional-platform/downloads/list Download] and unzip to target directory.
   ## If you have Subversion (SVN), you may follow the instructions here: http://code.google.com/p/hasoffers-promotional-platform/source/checkout
 
