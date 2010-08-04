@@ -1,22 +1,50 @@
-#summary Describes how to install the plugin and get it working with HasOffers.
-
-= Introduction =
-
-
-= Requirements =
-
-1. <b>API Access</b>: The HasOffers Promotional Platform relies on <a href="http://www.hasoffers.com/wiki/Category:API">API V2</a>  of HasOffers. You will need a valid network setup with at least the Enterprise Edition to access API V2. 
-
-2. Website hosting: The HasOffers Promotional Platform is also hosted by you and only includes an affiliate interface. You will need to use your current hosted application with HasOffers for admin functionality. 
-
-
-= Details =
 Follow the steps below to setup the HasOffers Promotional Platform on your server.
 
-1. Install the HTTP extension for PHP. Refer to http://usphp.com/manual/en/http.setup.php for more information.
 
-2. <a href="http://code.google.com/p/hasoffers-promotional-platform/downloads/list">Download</a> latest version of the Promotional Platform.
+=Requirements / Pre-installation=
 
-3. Unzip the file contents and copy to your website directory.
+  # A valid HasOffers network with a Enterprise or Dedicated plan.
+  # Have your own web server and have access to your apache virtual host configuration.
+  # Have your API ready in-hand. You can find this on the "API" page under the "Support" tab.
+  # On the "API" page, make sure to have your server's IP address whitelisted.
+  # Install the PECL HTTP extension for PHP (http://usphp.com/manual/en/http.setup.php). 
+  # Ensure that Apache's mod_rewrite module is enabled.
+  # Running PHP version of 5.1 or greater
 
-4. Setup the Rewrites.
+
+=Installation=
+
+  # Obtain the latest version of the HasOffers Promotional Platform, and install to target directory on your server.
+  ## [http://code.google.com/p/hasoffers-promotional-platform/downloads/list Download] and unzip to target directory.
+  ## If you have Subversion (SVN), you may follow the instructions here: http://code.google.com/p/hasoffers-promotional-platform/source/checkout
+
+
+= Application Configuration=
+  # Navigate to {installation}/app/conf/local-configuration.php
+  # Find the configuration line that says "ApiClient.NetworkId" and replace the existing value (demo) with your network ID.
+  # Find the configuration line that says "ApiClient.NetworkToken" and replace the existing value with your API key, found on the "API" page under the "Support" tab.
+
+  
+=Server Configuration=
+
+In this example, we assume three things:
+
+  # The domain this application resides on will be located at affiliates.example.com (replace with your real domain)
+  # Your server's IP address is 127.0.0.1 (replace with the server's real IP address)
+  # The installation path is /var/www/hasoffers/ (replace with the real target directory)
+
+{{{
+<VirtualHost my.server.ip.address:80>
+	ServerName   affiliates.example.com
+	AddType application/x-httpd-php .php .phtml .php3
+	DocumentRoot "/var/www/hasoffers/location_handler"
+	<Directory "/var/www/hasoffers/location_handler">
+			AllowOverride All
+	</Directory>
+	DirectoryIndex index.php
+	ErrorLog /var/www/hasoffers/log/error.log
+	CustomLog /var/www/hasoffers/log/access.log combined
+</VirtualHost>
+}}}
+
+_Please do note that there may be slight differences in configuration during this process depending on both your operating system and version of apache which you are running._
