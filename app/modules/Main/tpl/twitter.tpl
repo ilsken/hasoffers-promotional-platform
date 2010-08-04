@@ -13,18 +13,18 @@
 
 <?php if(!empty($creatives)) : ?>
 	<?php foreach ($creatives as $creative) : ?>
-		<form method="POST" name="form1" id="form1">
+		<form method="POST" action="/twitterpost" id="tweet<?=$creative['OfferFile']['id'];?>">
 			<p>
-				<textarea name="message" class="textboxbig"><?=$creative['OfferFile']['code']." ".$tracking['click_url'];?></textarea> 
-				<a href="#" name="twitter_share"><img src="/images/button-tweet.gif" alt="Tweet This"/></a>
+				<textarea name="message" class="textboxbig" maxlength="140"><?=$creative['OfferFile']['code']." ".$tracking['click_url'];?></textarea> 
+				<a href="#" onclick="$('#tweet<?=$creative['OfferFile']['id'];?>').submit();" name="twitter_share"><img src="/images/button-tweet.gif" alt="Tweet This"/></a>
 			</p>
 		</form>
 	<?php endforeach; ?>
 <?php else: ?>
-	<form method="POST" name="form1" id="form1">
+	<form method="POST" action="/twitterpost"id="tweet0">
 		<p>
 			<textarea name="message" class="textboxbig"><?=$tracking['click_url'];?></textarea> 
-			<a href="#" name="twitter_share"><img src="/images/button-tweet.gif" alt="Tweet This"/></a>
+			<a href="#" onclick="$('#tweet0').submit();" name="twitter_share"><img src="/images/button-tweet.gif" alt="Tweet This"/></a>
 		</p>
 	</form>
 <?php endif; ?>
