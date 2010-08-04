@@ -7,27 +7,32 @@ Add your content here.
 
 = Details =
 
-<a href="http://cdn.go2media.org/assets/hasoffers/images/hasoffers-promotional-platform-home.jpg">Affiliate Home</a>
+Affiliate Home
+[http://cdn.go2media.org/assets/hasoffers/images/hasoffers-promotional-platform-home.jpg http://cdn.go2media.org/assets/hasoffers/images/hasoffers-promotional-platform-home-s.jpg]
 
-<a href="http://cdn.go2media.org/assets/hasoffers/images/hasoffers-promotional-platform-banners.jpg">Display Banners</a>
+Display Banners
+[http://cdn.go2media.org/assets/hasoffers/images/hasoffers-promotional-platform-banners.jpg http://cdn.go2media.org/assets/hasoffers/images/hasoffers-promotional-platform-banners-s.jpg]
 
-<a href="http://cdn.go2media.org/assets/hasoffers/images/hasoffers-promotional-platform-email.jpg">Send via Email</a>
+Send via Email
+[http://cdn.go2media.org/assets/hasoffers/images/hasoffers-promotional-platform-email.jpg http://cdn.go2media.org/assets/hasoffers/images/hasoffers-promotional-platform-email-s.jpg]
 
-<a href="http://cdn.go2media.org/assets/hasoffers/images/hasoffers-promotional-platform-facebook.jpg">Share on Facebook</a>
+Share on Facebook
+[http://cdn.go2media.org/assets/hasoffers/images/hasoffers-promotional-platform-facebook.jpg http://cdn.go2media.org/assets/hasoffers/images/hasoffers-promotional-platform-facebook-s.jpg]
 
-<a href="http://cdn.go2media.org/assets/hasoffers/images/hasoffers-promotional-platform-linkedin.jpg">Post on Linked In</a>
+Post on Linked In
+[http://cdn.go2media.org/assets/hasoffers/images/hasoffers-promotional-platform-linkedin.jpg http://cdn.go2media.org/assets/hasoffers/images/hasoffers-promotional-platform-linkedin-s.jpg]
 
 Tweet on Twitter
-[http://cdn.go2media.org/assets/hasoffers/images/hasoffers-promotional-platform-twitter.jpg http://cdn.go2media.org/assets/hasoffers/images/hasoffers-promotional-platform-twitter.jpg]
+[http://cdn.go2media.org/assets/hasoffers/images/hasoffers-promotional-platform-twitter.jpg http://cdn.go2media.org/assets/hasoffers/images/hasoffers-promotional-platform-twitter-s.jpg]
 
 Earnings Report
-[http://cdn.go2media.org/assets/hasoffers/images/hasoffers-promotional-platform-earnings.jpg http://cdn.go2media.org/assets/hasoffers/images/hasoffers-promotional-platform-earnings.jpg]
+[http://cdn.go2media.org/assets/hasoffers/images/hasoffers-promotional-platform-earnings.jpg http://cdn.go2media.org/assets/hasoffers/images/hasoffers-promotional-platform-earnings-s.jpg]
 
 Refer a Friend
-[http://cdn.go2media.org/assets/hasoffers/images/hasoffers-promotional-platform-refer.jpg http://cdn.go2media.org/assets/hasoffers/images/hasoffers-promotional-platform-refer.jpg]
+[http://cdn.go2media.org/assets/hasoffers/images/hasoffers-promotional-platform-refer.jpg http://cdn.go2media.org/assets/hasoffers/images/hasoffers-promotional-platform-refer-s.jpg]
 
 Affiliate Login
-[http://cdn.go2media.org/assets/hasoffers/images/hasoffers-promotional-platform-login.jpg http://cdn.go2media.org/assets/hasoffers/images/hasoffers-promotional-platform-login.jpg]
+[http://cdn.go2media.org/assets/hasoffers/images/hasoffers-promotional-platform-login.jpg http://cdn.go2media.org/assets/hasoffers/images/hasoffers-promotional-platform-login-s.jpg]
 
 Affiliate Signup
-[http://cdn.go2media.org/assets/hasoffers/images/hasoffers-promotional-platform-signup.jpg http://cdn.go2media.org/assets/hasoffers/images/hasoffers-promotional-platform-signup.jpg]
+[http://cdn.go2media.org/assets/hasoffers/images/hasoffers-promotional-platform-signup.jpg http://cdn.go2media.org/assets/hasoffers/images/hasoffers-promotional-platform-signup-s.jpg]
