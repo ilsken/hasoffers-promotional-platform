@@ -191,7 +191,7 @@ class Main extends Templator {
 					'getCreativeCode',
 					array(
 						'id' => $_REQUEST['id'],
-						'tracking_link' => $tracking['click_url'],
+						'tracking_url' => $tracking['click_url'],
 						'impression_pixel' => $tracking['impression_pixel'],
 						'Interface' => 'affiliate',
 						'InterfaceId' => $user['affiliate_id']
