@@ -2,7 +2,7 @@ Follow the steps below to setup the HasOffers Promotional Platform on your serve
 
 =Requirements / Pre-installation=
 
-  # A valid HasOffers network with a Enterprise or Dedicated plan.
+  # A valid HasOffers network with an Enterprise or Dedicated plan.
   # Have your own web server and have access to your apache virtual host configuration.
   # Have your API ready in-hand. You can find this on the "API" page under the "Support" tab.
   # On the "API" page, make sure to have your server's IP address whitelisted.
