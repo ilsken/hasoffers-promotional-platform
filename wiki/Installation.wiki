@@ -1,0 +1,18 @@
+#summary Describes how to install the plugin and get it working with HasOffers.
+
+= Introduction =
+
+
+= Requirements =
+
+1. <b>API Access</b>: The HasOffers Promotional Platform relies on <a href="http://www.hasoffers.com/wiki/Category:API">API V2</a>  of HasOffers. You will need a valid network setup with at least the Enterprise Edition to access API V2. 
+
+2. Website hosting: The HasOffers Promotional Platform is also hosted by you and only includes an affiliate interface. You will need to use your current hosted application with HasOffers for admin functionality. 
+
+
+= Details =
+Follow the steps below to setup the HasOffers Promotional Platform on your server.
+
+1. Install the HTTP extension for PHP. Refer to http://usphp.com/manual/en/http.setup.php for more information.
+2. <a href="http://code.google.com/p/hasoffers-promotional-platform/downloads/list">Download</a> latest version of the Promotional Platform.
+3. 
