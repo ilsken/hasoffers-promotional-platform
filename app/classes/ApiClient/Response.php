@@ -8,13 +8,13 @@ class ApiClient_Response {
 
 	protected static $last_response = null;
 
-	protected function __construct(HttpRequest $request) {
+	protected function __construct(CurlRequest $request) {
 		$this->request = $request;
 		$this->data = $this->parseData();
 		self::$last_response = $this;
 	}
 
-	public static function create(HttpRequest $request) {
+	public static function create(CurlRequest $request) {
 		$response = new self($request);
 		return $response;
 	}
@@ -23,7 +23,7 @@ class ApiClient_Response {
 		return self::$last_response;
 	}
 
-	public function getHttpRequest() {
+	public function getCurlRequest() {
 		return $this->request;
 	}
 
@@ -110,7 +110,7 @@ class ApiClient_Response {
 	}
 
 	protected function parseData() {
-		$json_data = $this->getHttpRequest()->getResponseBody();
+		$json_data = $this->getCurlRequest()->getResponseBody();
 		$data = json_decode($json_data, true);
 		return $data;
 	}

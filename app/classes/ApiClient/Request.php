@@ -14,10 +14,10 @@ class ApiClient_Request {
 	;
 
 	protected function __construct() {
-		$this->request = new HttpRequest(null);
+		$this->request = new CurlRequest(null);
 	}
 	
-	public function getHttpRequest() {
+	public function getCurlRequest() {
 		return $this->request;
 	}
 
@@ -101,10 +101,10 @@ class ApiClient_Request {
 	}
 
 	public function send() {
-		try {
-			$request = $this->getHttpRequest();
+		// try {
+			$request = $this->getCurlRequest();
 	        $request->setUrl($this->getUrl());
-			$request->setMethod($this->getTypeInt());
+			$request->setMethod($this->getType());
 			
 			switch (strtoupper($this->getType())) {
 				case 'GET':
@@ -120,14 +120,14 @@ class ApiClient_Request {
 			$request->send();
 			$response = ApiClient_Response::create($request);
 			return $response;
-		} catch (Exception $e) {
+	//	} catch (Exception $e) {
 			$message = "
 			API Request Failed:<br />
 			url: {$this->getUrl()} <br />
 			params: {$this->getAllArgs()}<br />
 			";
 			die($message);
-		}
+	//	}
 	}
 
 	protected function getTypeInt() {
