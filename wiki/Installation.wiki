@@ -7,8 +7,8 @@ Follow the steps below to setup the HasOffers Promotional Platform on your serve
   # Have your API key ready in-hand. You can find this on the "API" page under the "Support" tab.
   # On the "API" page, make sure to have your server's IP address whitelisted.
   # Install the PECL HTTP extension for PHP (http://usphp.com/manual/en/http.setup.php). 
-  # Ensure that apache's mod_rewrite module is enabled.
-  # Running PHP version of 5.1 or greater
+  # Ensure that apache's mod_rewrite module is installed and enabled.
+  # Running PHP version of 5.1 or greater.
 
 =Installation=
 
