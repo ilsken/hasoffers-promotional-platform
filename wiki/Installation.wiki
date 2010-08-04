@@ -34,7 +34,7 @@ In this example, we assume three things:
   # The installation path is /var/www/hasoffers/ (replace with the real target directory)
 
 {{{
-<VirtualHost my.server.ip.address:80>
+<VirtualHost 127.0.0.1:80>
 	ServerName   affiliates.example.com
 	AddType application/x-httpd-php .php .phtml .php3
 	DocumentRoot "/var/www/hasoffers/location_handler"
