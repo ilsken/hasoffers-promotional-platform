@@ -1,0 +1,234 @@
+/* General */
+
+body {
+	background:#ffffff url("../../images/p-bg.gif") left top repeat;
+	font-family:Arial;
+	font-size:13px;
+	color:#000000;
+	margin:0;
+}
+img {
+	border:none;
+}
+form {
+	margin:0;
+	padding:0;
+}
+ol {
+	width:400px;
+}
+a:link, a:hover, a:visited {
+	color:#2585c7;
+}
+a:hover, a:active, a:focus {
+	color:#777;
+}
+.clear {
+	clear:both;
+}
+.textboxbig {
+	width:500px;
+	height:75px;
+	font-family:Arial;
+	font-size:13px;
+}
+.input-small {
+	width:120px;
+	font-family:Arial;
+	font-size:13px;
+}
+.input-med {
+	width:144px;
+	font-family:Arial;
+	font-size:13px;
+}
+.inputbig {
+	width:500px;
+	font-family:Arial;
+	font-size:13px;
+}
+
+/* Main Layout */
+#wrap {
+	background:transparent url("../../images/p-repeat-bg.png") left top repeat-x;
+	width:auto;
+	margin:0;
+	padding:0;
+}
+#main {
+	background:transparent url("../../images/p-content-bg.png") left top repeat-y;
+	width:820px;
+	margin:0 auto;
+	text-align:left;
+}
+#content {
+	margin:-30px 30px 0;
+	padding-bottom:30px;
+}
+#footer {
+	background:transparent url("../../images/p-content-btm.png") left top no-repeat;
+	width:820px;
+	height:80px;
+	margin:0 auto;
+	padding-top:40px;
+	text-align:left;
+}
+#footer a:link, #footer a:hover, #footer a:visited {
+	color:#999;
+}
+.copyright {
+	padding:5px 5px 5px 20px;
+	float:left;
+	color:#999;
+}
+.footer-logo {
+	width:152px;
+	height:57px;
+	margin-right:10px;
+	float:right;
+	background:transparent url("../../images/p-footer-logo.png") left top no-repeat;
+}
+#header {
+	background:#04283f url("../../images/p-top-bg.png") center top no-repeat;
+	height:225px;
+	width:100%;
+}
+#top {
+	height:169px;
+	width:820px;
+	margin:0 auto;
+}
+#logo {
+	width:307px;
+	margin-left:260px;
+	float:left;
+}
+#logo img{
+	margin-top:20px;
+}
+#pagelogo {
+	float:right;
+	width:300px;
+	text-align:center;
+}
+#pagelogo img {
+
+}
+#info {
+	margin:20px 20px 20px 20px;
+	text-align:left;
+}
+#info .textboxbig {
+	width:450px;
+	height:75px;
+}
+.highhead{
+	border: 1px solid #a5acb2;
+	border-bottom: 0px;
+	background: #f2f2f2;
+	padding: 5px 5px 5px 5px;
+	padding-left: 10px;
+	margin-top: 20px;
+}
+.highhead h2 {
+	margin: 0px 0px 0px 0px;
+}
+.highlight {
+	border: 1px solid #a5acb2;
+	padding: 10px 10px 10px 10px;
+	padding-top: 0px;
+}
+
+
+.login-left {
+	padding:0 10px 0 0;
+}
+.login-right {
+
+}
+.login-btn {
+	background:transparent url("../../images/p-login.png") 0 0 no-repeat;
+	display:block;
+	width:150px;
+	height:33px;
+	overflow:hidden;
+	padding:0;
+	margin:0;
+	border:0;
+	cursor:pointer;
+}
+.login-btn:hover {
+	background:transparent url("../../images/p-login.png") 0 -33px no-repeat;
+}
+.profile-pic {
+	padding-left:190px;
+	background:transparent url("../../images/p-lucas.png") left top no-repeat;
+	height:240px;
+}
+.logintext{ 
+	margin-top:5px;
+	margin-bottom:5px;
+	font-weight: bold;
+}
+
+/* Menu and Login */
+#nav {
+	background:transparent url("../../images/p-content-top.png") 0 13px no-repeat;
+	width:820px;
+	height:53px;
+	margin:0 auto;
+	font-size:93%;
+	line-height:normal;
+	z-index:999;
+}
+#nav ul {
+	height:24px;
+	margin:0 0 0 30px;
+	padding:0;
+	list-style:none;
+}
+#nav li {
+	display:inline;
+	margin:0;
+	padding:0;
+}
+#nav a {
+	float:left;
+	background:url("../../images/nav-left.gif") no-repeat left top;
+	margin:0;
+	padding:0 0 0 4px;
+	text-decoration:none;
+}
+#nav a span {
+	float:left;
+	display:block;
+	background:url("../../images/nav-right.gif") no-repeat right top;
+	padding:5px 12px 4px 7px;
+	color:#fff;
+	font-weight:bold;
+	text-shadow:1px 1px #333;
+}
+
+/* Commented Backslash Hack hides rule from IE5-Mac \*/
+#nav a span {float:none;}
+/* End IE5-Mac hack */
+
+#nav a:hover span {
+	color:#FFF;
+}
+#nav a:hover {
+	background-position:0% -42px;
+}
+#nav a:hover span {
+	background-position:100% -42px;
+}
+#auth { 
+	width:150px;
+	margin-top:20px;
+	float:right;
+	color:white;
+}
+#auth a:link, #auth a:hover, #auth a:visited {
+	color:white;
+}
+
