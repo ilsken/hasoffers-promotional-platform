@@ -5,7 +5,7 @@ Follow the steps below to setup the HasOffers Promotional Platform on your serve
   # A valid HasOffers network with an Enterprise or Dedicated plan.
   # Have your own web server and have access to your apache virtual host configuration.
   # Have your API key ready in-hand. You can find this on the "API" page under the "Support" tab.
-  # On the "API" page, make sure to have your server's IP address whitelisted. 
+  # On the "API" page, make sure to have your server's IP address whitelisted for the API. 
   # Ensure that apache's mod_rewrite module is installed and enabled.
   # Running PHP version of 5.2.x or greater.
 
