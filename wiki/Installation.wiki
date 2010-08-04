@@ -14,5 +14,9 @@
 Follow the steps below to setup the HasOffers Promotional Platform on your server.
 
 1. Install the HTTP extension for PHP. Refer to http://usphp.com/manual/en/http.setup.php for more information.
+
 2. <a href="http://code.google.com/p/hasoffers-promotional-platform/downloads/list">Download</a> latest version of the Promotional Platform.
-3. 
+
+3. Unzip the file contents and copy to your website directory.
+
+4. Setup the Rewrites.
