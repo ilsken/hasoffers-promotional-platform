@@ -1,0 +1,17 @@
+#!/usr/bin/php
+<?php
+
+// Now supports links
+$dir = exec('pwd');
+do{
+	define("ERROR_DISPLAY_MODE",'console');
+	$file = $dir . '/core/core.php';
+	if(file_exists($file)){
+		include($file);
+		echo Script::parse($_SERVER["argv"]);
+		die();
+	}
+	$dir = dirname($dir);
+}while($dir!=='/');
+
+echo "fatal: Not a nth framework.\n";

@@ -1,0 +1,9 @@
+<IfModule !mod_rewrite.c>
+	ErrorDocument 404 /index.php
+</IfModule>
+<IfModule mod_rewrite.c>
+	RewriteEngine On	
+	RewriteRule ^(.+) index.php [QSA]
+</IfModule>
+php_value display_errors 1
+php_value display_startup_errors 1
